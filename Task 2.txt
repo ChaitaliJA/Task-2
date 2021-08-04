@@ -1,0 +1,35 @@
+1. List 5 difference between Browser JS(console) vs Nodejs 
+
+ Ans: 1. In Node everything is a module. You must keep your code inside a module.
+         Moduling is not mandatory in client side JavaScript, i.e. in browsers. 
+      2. Node.js has full system access i.e can read and write directly to the file system like any other
+         application that also concludes that we can write complete software using Node.js while Browser.js is sandboxed
+         for the safety purposes and have access limited to the browser.
+      3. Another big difference is that in Node.js you control the environment. Unless you are building an open source application that anyone
+         can deploy anywhere,you know which version of Node.js you will run the application on. Compared to the browser environment, where you don't 
+         get the luxury to choose what browser your visitors will use, this is very convenient.
+      4. Node doesn't have "document" object also, cause it never have to render anything in a page.	
+         In browsers "document", is predefined global variable, that has the html which is rendered
+      5. Browser.js runs any engine like Spider monkey (Firefox), JavaScript Core (Safari), V8 (Google Chrome) accordingly to the browser while
+         Node.js runs in a V8 engine which is mainly used by google chrome.
+
+
+2. Execute the below code and write your description in txt file
+ Ans:- 
+
+In JavaScript, the typeof operator returns the data type of its operand in the form of a string. The operand can be any object, function, or variable.
+typeof() gives us the details about the data written inside its brackets. Sometimes during coding of big data,we may get confuse between the values.
+At that time we can easily get the datatype of needed data.
+I tried to run the code in guvi.in/ide.
+
+typeof(1) - It gives output as "number". 
+typeof(1.1) -It gives output as "number". This is float but JS has number datatype only and hence floating values also considered as basically numbers.
+typeof('1.1')- It gives output as "string". We can observ the data is in qoutes hence considered as string datatype.
+typeof(true)- It gives output as "boolean". true and false are the boolean values.
+typeof(null)- It gives output as "object". null comes in Trivial datatypes of JS and null is not considered as a datatype, it is object.
+typeof(undefined)- It gives output as "undefined". As the data is not a type of primitive or composite, it is not possible to identify and 
+                   define, hence it is undefined.
+typeof([])- It gives output as "object" because [] shows the array 
+typeof({})- It gives output as "object" because {} used for objects declaration.
+typeof(NaN)- It gives output as "number". However, NaN (Not a Number) is a numeric data type whose value cannot be represented using actual numbers.
+              So, the name "Not a Number", doesn't mean that the value is not numeric
